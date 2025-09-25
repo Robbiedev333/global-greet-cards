@@ -27,10 +27,10 @@ export const CountryCard = ({ country }: CountryCardProps) => {
           </p>
         </div>
         <div className="p-3 rounded-lg border-l-4 border-accent bg-fun-fact-bg">
-          <p className="text-sm font-medium text-accent-foreground mb-1">
+          <p className="text-sm font-medium text-fun-fact mb-1">
             💡 Fun Fact
           </p>
-          <p className="text-sm text-foreground/80 italic">
+          <p className="text-sm text-fun-fact italic">
             {country.fun_fact}
           </p>
         </div>
